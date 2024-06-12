@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom'
 
 export default function Header() {
   return (
-    <header className="bg-red-100 shadow-md">
+    <header className="bg-rose-100 shadow-md">
       <div className="flex justify-between items-center max-w-6xl mx-auto p-5">
         <Link to="/">
           <h1 className="font-bold text-sm sm:text-3xl flex flex-wrap">
@@ -11,7 +11,7 @@ export default function Header() {
             <span className="text-gray-900">Connect</span>
           </h1>
         </Link>
-        <form className="bg-red-200 p-2 rounded-lg flex items-center">
+        <form className="bg-red-200 p-2 rounded-md flex items-center">
           <input
             type="text"
             placeholder="Search..."
